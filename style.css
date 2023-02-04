@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body,html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	color: white;
+	background-image: url('ds3_art2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-size:130%;
+}
+
+.logo {
+	background-image: url('ds3_art1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-size: 100%;
+}
+
+.title {
+	/*for game title under logo*/
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+	text-align: center;
+}
+
+.box {
+	position: relative;
+	bottom: 20px;
+	width: 30%;
+	left: 35%;
+}
+
+.infoIndi {
+	/*for basic info under title*/
+	color: #C19D53;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	position: relative;
+	width: 200px;
+	height: 20px;
+}
+
+.info {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	position: absolute;
+	width: 75px;
+	height: 20px;
+	left: 100px; 
+	top:-18px;
+}
+
+.main {
+	position: relative;
+	left:5%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	width:40%;
+	
+}
+
+.video {
+	position: absolute;
+	left:105%;
+	top:3%;
+}
+
+.clickable {
+	padding: 5px;
+	position: relative;
+	font-family: 'Kanit', sans-serif;
+	color:white;
+	background-color:#C19D53;
+	width:40%;
+	height:100%;
+	left:10%;
+}
+
+.fBox {
+	position:relative;
+	width:75%;
+	height:1000px;
+	left:12.5%;
+}
+
+.featureT {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
+
+.feature {
+	position:absolute;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	text-align: right;
+	width:35%;
+	height:7%;
+	padding:10px;
+	background-color: #C19D53;
+	left:45%;
+}
+
+.featurePic {
+	position:absolute;
+	width:50%;
+}
+
+.featureInfo {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	position: absolute;
+	left: 55%;
+	top: 25%;
+}
+
+.featureB {
+	position:relative;
+	width:100%;
+	height:40%;
+}
